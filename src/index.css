@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 225, 225);
+  font-family: 'Inter', sans-serif;
+}
+
+.badge-container {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+
+}
+
+.badge {
+  padding: .25em .8em;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.badge.pill {
+  border-radius: 12px;
+}
+
+.badge.red {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.badge.yellow {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.badge.green {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.badge.blue {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+.badge.indigo {
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+
+.badge.purple {
+  background-color: #EDE9FE;
+  color: #5B21B6;
+}
+
+.badge.pink {
+  background-color: #FCE7F3;
+  color: #9D174D;
+}
+
+.banner-title {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: .8rem;
+}
+
+.banner {
+  display: flex;
+  max-width: 896px;
+  flex-direction: column;
+  padding: 1em;
+  gap: .5em;
+  border-radius: 6px;
+}
+
+.banner h1{
+  margin: 0;
+  font-weight: 500;
+}
+
+.banner p {
+  margin: 0;
+  margin-left: 2em;
+  font-weight: 100;
+}
+
+.banner.sucess {
+  background-color: #ECFDF5;
+  color: #065F46;
+}
+
+.banner.warning {
+  background-color: #FFFBEB;
+  color: #92400E;
+}
+
+.banner.error {
+  background-color: #FEF2F2;
+  color: #92400E;
+}
+
+.banner.neutral {
+  background-color: #EFF6FF;
+  color: #1E40AF;
+}
